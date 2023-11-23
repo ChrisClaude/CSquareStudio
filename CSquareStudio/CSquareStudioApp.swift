@@ -11,7 +11,7 @@ import SwiftUI
 struct CSquareStudioApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ImageUploadView()
         }
     }
 }

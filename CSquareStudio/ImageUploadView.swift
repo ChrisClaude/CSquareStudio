@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ImageUploadView: View {
     @State private var isImagePickerPresented: Bool = false
+    @State private var selectedImage: UIImage?
     
     var body: some View {
         ZStack {
@@ -47,9 +48,19 @@ struct ImageUploadView: View {
                 .sheet(isPresented: $isImagePickerPresented) {
                     // Present image picker here
                     // You can use UIImagePickerController or your custom image picker logic
-                    Text("Image Picker Goes Here")
+                    ImagePicker { image in
+                        // Handle the selected image
+                        self.selectedImage = image
+                    }
                 }
             }
+        }
+        
+        if let selectedImage = selectedImage {
+            Image(uiImage: selectedImage)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 200, height: 200)
         }
     }
 }

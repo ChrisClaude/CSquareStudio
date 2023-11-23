@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B510E1072B0F2E2700368063 /* ImageUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B510E1062B0F2E2700368063 /* ImageUploadView.swift */; };
+		B58534612B1008D400D76280 /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58534602B1008D400D76280 /* ImagePickerCoordinator.swift */; };
 		B5A0F54A2AED4DE100956226 /* CSquareStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A0F5492AED4DE100956226 /* CSquareStudioApp.swift */; };
 		B5A0F54C2AED4DE100956226 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A0F54B2AED4DE100956226 /* ContentView.swift */; };
 		B5A0F54E2AED4DE300956226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A0F54D2AED4DE300956226 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		B510E1062B0F2E2700368063 /* ImageUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadView.swift; sourceTree = "<group>"; };
+		B58534602B1008D400D76280 /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
 		B5A0F5462AED4DE100956226 /* CSquareStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSquareStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A0F5492AED4DE100956226 /* CSquareStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSquareStudioApp.swift; sourceTree = "<group>"; };
 		B5A0F54B2AED4DE100956226 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				B5A0F54D2AED4DE300956226 /* Assets.xcassets */,
 				B5A0F54F2AED4DE300956226 /* Preview Content */,
 				B510E1062B0F2E2700368063 /* ImageUploadView.swift */,
+				B58534602B1008D400D76280 /* ImagePickerCoordinator.swift */,
 			);
 			path = CSquareStudio;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58534612B1008D400D76280 /* ImagePickerCoordinator.swift in Sources */,
 				B510E1072B0F2E2700368063 /* ImageUploadView.swift in Sources */,
 				B5A0F54C2AED4DE100956226 /* ContentView.swift in Sources */,
 				B5A0F54A2AED4DE100956226 /* CSquareStudioApp.swift in Sources */,
